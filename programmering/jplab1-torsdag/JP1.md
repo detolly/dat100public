@@ -24,7 +24,7 @@ Lag et program som leser inn to heltall fra brukeren og skriver ut summen av de.
 
 ### Oppgave 2
 
-**Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall dvs. `min(1,10) = 2`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. Benytt gjerne sammensatte metodekall.
+**Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall dvs. `min(1,10) = 1`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. Benytt gjerne sammensatte metodekall.
 
 ### Oppgave 3
 
