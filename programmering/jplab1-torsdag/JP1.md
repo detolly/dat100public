@@ -24,11 +24,11 @@ Lag et program som leser inn to heltall fra brukeren og skriver ut summen av de.
 
 ### Oppgave 2
 
-Oppgave 6 Kap. 2 i Java-boken
+**Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall dvs. `min(1,10) = 2`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. Benytt gjerne sammensatte metodekall.
 
 ### Oppgave 3
 
-Oppgave 9 Kap 2. i Java-boken
+**Oppgave 9 Kap 2. i Java-boken:** Lag et program som ber brukeren om å skrive inn en dato som tre heltall: et dagnummer, et månedsnummer, og et årstall. Skriv datoen ut på vanlig måte med punktum og skilletegn, f.eks, 4.11.2013. Det er ikke nødvendig å sjekke at datoen er lovlig.
 
 ### Oppgave 4
 

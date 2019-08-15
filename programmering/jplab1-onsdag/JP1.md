@@ -111,7 +111,8 @@ I forbindelse med forelesninger og programmeringsoppgaver skal vi bruke bibliote
 
 For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet ha en referanse til en jar-fil som inneholder java-koden for biblioteket. Jar-filen `easygraphics.jar` finnes i mappen `easygraphics/lib` på PC'en din der du sjekket ut koden fra github i oppgave 3.
 
-1.	Opprett et nytt Eclipse-prosjekt som i oppgave 2 med navnet *EasyGraphicsTest*.
+1.	Opprett et nytt Eclipse-prosjekt som i oppgave 2 med navnet *EasyGraphicsTest*. Det er **VIKTIG** at du svarer nei til å oprette module-info filen.
+
 2. Lag en pakke `no.hvl.dat100 i prosjektet
 3.	Legg inn en ny Java-klasse *Grafikk* i pakken `no.hvl.dat100` med følgende innhold:
 
