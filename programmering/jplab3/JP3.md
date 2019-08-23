@@ -9,7 +9,7 @@ Dere skal jobbe i *grupper* på 2-3 medlemmer med de obligatoriske programmering
 **ALLE** i
 gruppen må være tilstede for demonstrasjon av programkjøring for å få godkjent. Derfor bør dere ikke
 jobbe i grupper på tvers av klassene. Koden skal ikke leveres inn.
-**Tidsfrist** for demonstrasjon er på lab-tiden i uke 37.
+**Tidsfrist** for demonstrasjon er på lab-tiden i uke 36.
 
 ### Oppgave 1
 
