@@ -74,7 +74,7 @@ Kjør programmet flere ganger med ulike inndata. Får du alltid det samme result
 
 ### Oppgave 4 - Obligatorisk
 
-**Oppgave 4** fra uke [https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2-2.md#-oppgave-4]
+**Oppgave 4** fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2-2.md#-oppgave-4
 
 ### Oppgave 5 - Obligatorisk
 
@@ -83,4 +83,4 @@ n! = 1\*2\*3\*…\*(n-1)\*n.
 
 ### Oppgave 6 - Obligatorisk
 
-**Oppgave 5** fra uke  https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2-2.md#-oppgave-5
+**Oppgave 5** fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2-2.md#-oppgave-5
