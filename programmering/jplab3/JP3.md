@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 3 - torsdag/fredag uke 3
+# DAT100: Java Programmering - uke 3
 
 ## Obligatorisk innlevering / fremvisning
 
