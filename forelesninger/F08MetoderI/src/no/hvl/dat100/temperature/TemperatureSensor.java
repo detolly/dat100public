@@ -1,21 +1,10 @@
 package no.hvl.dat100.temperature;
 
-public class TemperaturSensor {
+public class TemperatureSensor {
 
 	private static final int MINMAX = 20;
 
-	private static void delay() {
-
-		try {
-			Thread.sleep(1000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
 	public static double read() {
-
-		delay();
 		
 		long seconds = System.currentTimeMillis();
 
