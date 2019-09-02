@@ -1,6 +1,6 @@
 package no.hvl.dat100.temperature;
 
-public class DisplayTemperature {
+public class DisplayApp {
 
 	private static final int N = 1000;
 	
@@ -8,12 +8,15 @@ public class DisplayTemperature {
 		
 		double current, min, max, sum;
 		
-		current = TemperatureSensor.read();
-		min = max = sum = current;
+		current = Sensor.read();
+		
+		min = current;
+		max = current;
+		sum = current;
 		
 		for (int i = 1; i<=N; i++) {
 		
-			current = TemperatureSensor.read();
+			current = Sensor.read();
 			
 			min = Math.min(min, current);
 			
@@ -41,7 +44,7 @@ public class DisplayTemperature {
 	private static void delay() {
 
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
