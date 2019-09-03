@@ -14,7 +14,7 @@ public class DisplayApp {
 		max = current;
 		sum = current;
 		
-		for (int i = 1; i<=N; i++) {
+		for (int i = 2; i<=N; i++) {
 		
 			current = Sensor.read();
 			

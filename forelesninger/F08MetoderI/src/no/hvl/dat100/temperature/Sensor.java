@@ -6,9 +6,11 @@ public class Sensor {
 
 	public static double read() {
 		
-		long seconds = System.currentTimeMillis();
+		long msecs = System.currentTimeMillis();
 
-		double temp = MINMAX * (Math.sin(seconds / 1000)) + (Math.random());
+		double temp = 
+					MINMAX * 
+						(Math.sin(msecs / 1000)) + (Math.random());
 
 		return temp;
 	}
