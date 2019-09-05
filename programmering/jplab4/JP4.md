@@ -129,7 +129,7 @@ public class InputAreal {
 
 ##### a)
 
-Utvid klassen ovenfor med en metode `private int lesInnTall(String message)` som leser inn et tall via `showInputDialog` og returner heltallverdien. Parametren `message` er den tekst som skal vises i dialogboksen.
+Utvid klassen ovenfor med en metode `private static int lesInnTall(String message)` som leser inn et tall via `showInputDialog` og returner heltallverdien. Parametren `message` er den tekst som skal vises i dialogboksen.
 
 ##### b)
 
