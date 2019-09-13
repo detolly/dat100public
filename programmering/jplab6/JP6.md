@@ -1,59 +1,93 @@
 ## DAT100: Java Programmering 6 - Uke 6 / 38
 
-Programmerinslab de neste tre ukene (38 - 40) vil inneholde oppgaver som er spesielt relevant for programmeringsprosjektet som dere skal gjennomføre i uke 41. Programmeringsprojektet vil ha fokus på tabeller, metoder, objekter og klasser. Dette betyr at det er viktig å jobbe med oppgavene på programmeringslab i forhold til å være godt forberedt for programmeringsprosjektet.
+Programmerinslab de neste ukene (uke 38 - 40) vil inneholde oppgaver som spesielt er relevant for programmeringsprosjektet i uke 41.
+
+Programmeringsprojektet vil ha fokus på tabeller, metoder, objekter og klasser. Det er derfor viktig å jobbe med oppgavene på programmeringslab i forhold til å være godt forberedt til programmeringsprosjektet.
 
 ### Oppgave 1 - Tabeller og metoder
 
 ##### a)
 
-Implementer en metode
+Implementer en metode:
 
 ```java
-int summer (int[] tabell)
+public static void skrivUt (int[] tabell)
 ```
 
-som gitt en tabell av heltall beregner summen av tallene som er lagret i tabellen. Implementer tre varianter av metoden: en som bruker en vanlig for-løkke, en som bruker en while-løkke, og en en som bruker en utvidet for-løkke. Test de ulike implementasjoner av metoden.
+som kan skrive ut en tabell med heltal.
 
 ##### b)
 
 Implementer en metode
 
 ```java
-boolean finnesTall (int[] tabell, int tall)
+public static int summer (int[] tabell)
 ```
 
-som gitt en tabell og et tall returnerer `true` om tabellen `tabell` innholder tallet `tall` og `false` ellers.
+som gitt en `tabell` av heltall som parameter beregner summen av tallene som er lagret i tabellen.
+
+Implementer tre varianter av metoden: en som bruker en vanlig for-løkke, en som bruker en while-løkke, og en som bruker en utvidet for-løkke.
+
+Test de ulike implementasjoner av metoden på utvalgte tabeller og se at de gir riktig resultat. Metoden fra a) kan brukes ifm. test.
 
 ##### c)
 
 Implementer en metode
 
 ```java
-boolean posisjonTall (int[] tabell, int tall)
+public static boolean finnesTall (int[] tabell, int tall)
 ```
 
-som returnerer det første index (posisjon) i tabellen som inneholder tallet `tall` og `-1` ellers.
+som gitt en `tabell` og et tall returnerer `true` om tabellen `tabell` innholder tallet `tall` og `false` ellers.
 
 ##### d)
 
 Implementer en metode
 
 ```java
-int[] reverser(int[] tabell)
+public static boolean posisjonTall (int[] tabell, int tall)
 ```
 
-som gitt en `tabell` av heltall returnerer en ny tabell som har de samme elementene som `tabell` men modsatt rekkefølge.
+som returnerer det første index (posisjon) i `tabell` som inneholder tallet `tall` og `-1` ellers.
 
 ##### e)
 
-Lag ein metode for å avgjere om ein array (tabell) av heiltal er sortert stigande (dvs. at alle tal skal vere større enn det forrige).
+Implementer en metode
+
+```java
+public static int[] reverser(int[] tabell)
+```
+
+som gitt en `tabell` av heltall returnerer en ny tabell som har de samme elementene som `tabell` men i modsatt rekkefølge.
+
+##### f)
+
+Implementer en metode:
+
+```java
+public static boolean erSortert (int[] tabell)
+```
+
+som kan avgjere om ein array (tabell) av heiltal er sortert stigande (dvs. at alle tal skal vere større enn det forrige)
+
+##### g)
+
+Implementer en metode:
+
+```java
+public static int[] tabell settSammen(int[] tabell1,int[] tabell2)
+```
+
+som gitt to tabeller `tabell1` og `tabell2` som paramtere returnerer en ny tabell er er sammensettning av de to tabeller.
 
 ### Oppgave 2 - Tabeller («arrays») og strenger
 
 Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
 
-Gitt en streng `s` kan metoder i String-klassen kalles ved å bruke `s.<metodenavn>`. Eksempelvis kan metoden `length()` kaldes ved å bruke `s.length()`
+Gitt en streng `s` kan en metode fra String-klassen kalles ved å bruke `s.<metodenavn>`. Eksempelvis kan metoden `length()` kalles ved å bruke `s.length()`
+
+Metodane i d) - f) nedanfor skal vere klassemetodar (static). Plasser dei ein eigen klasse og lag eit main-program som testar metodane.
 
 ##### a)
 
@@ -69,8 +103,6 @@ Se om der finnes en metode for å teste om en streng inneholder en gitt sekvens 
 
 Gå gjennom tabellen og skriv ut de midterste tegnene i hver streng der du bruker følgende regler. Dersom strengen inneholder bare ett tegn, skrives hele strengen ut. Dersom lengden er partall, skal de to midterste tegnene skrives ut. Dersom strengen har odde lengde (odde antall tegn), skal de 3 midterste tegnene skrives ut om strengen inneholder 3 tegn eller mer.
 
-Metodane nedanfor skal vere klassemetodar (static). Plasser dei ein eigen klasse og lag eit main-program som testar metodane.
-
 ##### d)
 
 Lag ein metode som skriv ut ein streng baklengs.
@@ -81,11 +113,13 @@ Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i t
 
 ##### f) - ekstra oppgåve
 
-Implementer sjølv en metode svarande til metoden frå String-klassen brukt i c). Du skal bruke løkke.
+Implementer sjølv en metode svarande til metoden frå String-klassen brukt i e). Du skal bruke løkke.
 
 ### Oppgave 3 - Tabeller og decimaltall
 
-Du skal lage et program for å lese inn temperaturen i Bergen for et bestemt klokkeslett for alle dager i en bestemt uke (dvs. 7 temperaturer). Temperaturer skal lagres i en tabell.
+Du skal lage et program for å lese inn temperaturen i Bergen for et bestemt klokkeslett for alle dager i en bestemt uke (dvs. 7 temperaturer).
+
+**Temperaturer skal lagres i en tabell**.
 
 Programmet skal videre finne og skrive ut gjennomsnittet av disse verdiene og den høyeste temperaturen for hele uken.
 
@@ -131,7 +165,7 @@ https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html
 
 Denne metoden returnerer et flyttall større eller lik 0 og mindre enn 1.
 
-Tabellen skal sorteres ved å bruke en passende metode fra klassen Arrays. Tiden for selve sorteringen skal måles og svaret skal skrives ut i millisekunder.
+Tabellen skal sorteres ved å bruke en passende metode fra klassen `Arrays`. Tiden for selve sorteringen skal måles og svaret skal skrives ut i millisekunder.
 
 Det å lese API dokumentasjon for klassene `System` (eller `Instant` og `Duration`), `Math` og `Arrays` for å finne de rette metoder er en del av oppgaven.
 
