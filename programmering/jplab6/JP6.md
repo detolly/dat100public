@@ -68,7 +68,7 @@ Implementer en metode:
 public static boolean erSortert (int[] tabell)
 ```
 
-som kan avgjere om ein array (tabell) av heiltal er sortert stigande (dvs. at alle tal skal vere større enn det forrige)
+som kan avgjere om ein array (tabell) av heiltal er sortert stigande (dvs. at alle tal skal vere større eller lik det forrige)
 
 ##### g)
 
